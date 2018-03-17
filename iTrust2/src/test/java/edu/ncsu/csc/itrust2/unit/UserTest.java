@@ -23,6 +23,7 @@ public class UserTest {
      */
     @Test
     public void testEqualsAndProperties () {
+        System.out.println("---ORIGINAL---");
         final User u1 = new User();
         final User u2 = new User();
 
